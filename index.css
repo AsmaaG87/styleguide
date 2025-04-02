@@ -1,0 +1,230 @@
+*{
+   
+    box-sizing: border-box;
+}
+.header{
+    font-family: worksans;
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+   color: #000;
+    margin: 20px 0;
+    width: 100%;
+}
+
+/*COLOR PALLETE*/
+.colors {
+    border: 2px solid #000;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 20px auto; 
+    width: 80%; 
+    display: flex;
+    flex-wrap: wrap;   
+    gap: 20px;  
+    justify-content: center;
+    position: relative;
+}
+.color-jordy-blue{
+    width: 200px;
+    height: 100px;
+    border: 1px solid #000;
+    position: relative;
+    padding: 10px;
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+    font-family: outfit;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #99C2F1;
+}
+.color-black{
+    width: 200px;
+    height: 100px;
+    border: 1px solid #000;
+    position:relative;
+    padding: 10px;
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+    font-family: outfit;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #000;
+}
+.color-white {
+    width: 200px;
+    height: 100px;
+    border: 1px solid #000;
+    position: relative; 
+    padding: 10px;
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+    font-family: outfit;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #ffffff;
+}
+    
+.color-light-gray {
+    width: 200px;
+    height: 100px;
+    border: 1px solid #000;
+    position: relative; 
+    padding: 10px;
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    text-align: center;  
+    border-radius: 5px;
+    font-family: outfit;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #d3d3d3;
+   
+}
+.title {
+    font-family: merriweather;
+    font-size: 40px;
+    font-weight: 700;
+    color: #000;
+    text-align: center;
+    width: 100%;   
+
+}
+/*SUBHEADING*/
+h2 {
+    text-align: center;
+    font-family: merriweather;
+    font-size: 40px;
+    font-weight: 700;
+    color: #000;
+    width: 100%;
+   margin: 10px;
+   padding: 10px;
+}
+/*FONTS*/
+.fonts{
+    border: 2px solid #000;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 20px auto;
+    width: 80%;
+}
+h3{
+    font-family: outfit;
+    text-decoration: underline;
+    font-size: 25px;
+}
+.extralight{
+    font-family: outfit;
+    font-weight: 200;
+    font-size: 20px;
+}
+.light{
+    font-family: outfit;
+    font-weight: 300;
+    font-size: 20px;
+}
+.regular{
+    font-family: outfit;
+    font-weight: 400;
+    font-size: 20px;
+}
+.lightmerri{
+    font-family: merriweather;
+    font-weight: 300;
+    font-size: 20px;
+}
+.lightitalic{
+    font-family: merriweather;
+    font-weight: 300;
+    font-size: 20px;
+    font-style: italic;
+}
+.regularmerri{
+    font-family: merriweather;
+    font-weight: 400;
+    font-size: 20px;
+}
+.lightsans{
+    font-family: worksans;
+    font-weight: 300;
+    font-size: 20px;
+}
+.regularsans{
+    font-family: worksans;
+    font-weight: 400;
+    font-size: 20px;
+}
+.bold{
+    font-family: worksans;
+    font-weight: 700;
+    font-size: 20px;
+}
+/*typography*/
+
+.typography{
+    border: 2px solid #000;
+    border-radius: 20px;
+    padding: 20px;
+    margin:auto;
+    width: 80%;    
+}
+.mainheading{
+    font-family: worksans;
+    font-size: 50px;
+    font-weight: 700;
+}
+.typography-heading{
+    font-family: outfit;
+    font-size: 16px;
+    font-weight: 300;
+}
+.subheader{
+    font-family: merriweather;
+    font-size: 30px;    
+    font-weight: 400;
+}
+.typography-subheading{
+    font-family: outfit;
+    font-size: 16px;
+    font-weight: 300; 
+}
+.paragraph{
+    font-family: outfit;
+    font-size: 20px;
+    font-weight: 300; 
+}
+.typography-paragraph{
+    font-family: outfit;
+    font-size: 16px;
+    font-weight: 300; 
+}
+/*FOOTER*/
+footer{
+    font-family: outfit;
+    font-size: 16px;
+    font-weight: 300;
+    color: #000;
+    text-align: center;
+    width: 100%;
+
+}
